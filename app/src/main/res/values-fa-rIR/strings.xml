@@ -1,4 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Homework_1</string>
+    <string name="app_name">تکالیف</string>
+    <string name="instagram">اینستاگرام</string>
+
+    <string-array name="numbers">
+        <item>عنصر 1</item>
+        <item>عنصر 2</item>
+        <item>عنصر 3</item>
+        <item>عنصر 4</item>
+        <item>عنصر 5</item>
+        <item>عنصر 6</item>
+        <item>عنصر 7</item>
+        <item>عنصر 8</item>
+        <item>عنصر 9</item>
+        <item>عنصر 10</item>
+        <item>عنصر 11</item>
+        <item>عنصر 12</item>
+        <item>عنصر 13</item>
+        <item>عنصر 14</item>
+        <item>عنصر 15</item>
+        <item>عنصر 16</item>
+        <item>عنصر 17</item>
+        <item>عنصر 18</item>
+        <item>عنصر 19</item>
+        <item>عنصر 20</item>
+        <item>عنصر 21</item>
+        <item>عنصر 22</item>
+        <item>عنصر 23</item>
+        <item>عنصر 24</item>
+        <item>عنصر 25</item>
+        <item>عنصر 26</item>
+        <item>عنصر 27</item>
+        <item>عنصر 28</item>
+        <item>عنصر 29</item>
+        <item>عنصر 30</item>
+    </string-array>
+
+    <string-array name="menu_items">
+        <item>خانه</item>
+        <item>جستوجو</item>
+        <item>دوربین</item>
+        <item>مورد علاقه</item>
+        <item>شخص</item>
+    </string-array>
+
 </resources>

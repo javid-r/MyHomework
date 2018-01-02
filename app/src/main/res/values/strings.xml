@@ -1,3 +1,46 @@
 <resources>
-    <string name="app_name">My Homework</string>
+    <string name="app_name">Homework</string>
+    <string name="instagram">instagram</string>
+
+    <string-array name="numbers">
+        <item>List Item 1</item>
+        <item>List Item 2</item>
+        <item>List Item 3</item>
+        <item>List Item 4</item>
+        <item>List Item 5</item>
+        <item>List Item 6</item>
+        <item>List Item 7</item>
+        <item>List Item 8</item>
+        <item>List Item 9</item>
+        <item>List Item 10</item>
+        <item>List Item 11</item>
+        <item>List Item 12</item>
+        <item>List Item 13</item>
+        <item>List Item 14</item>
+        <item>List Item 15</item>
+        <item>List Item 16</item>
+        <item>List Item 17</item>
+        <item>List Item 18</item>
+        <item>List Item 19</item>
+        <item>List Item 20</item>
+        <item>List Item 21</item>
+        <item>List Item 22</item>
+        <item>List Item 23</item>
+        <item>List Item 24</item>
+        <item>List Item 25</item>
+        <item>List Item 26</item>
+        <item>List Item 27</item>
+        <item>List Item 28</item>
+        <item>List Item 29</item>
+        <item>List Item 30</item>
+    </string-array>
+
+    <string-array name="menu_items">
+        <item>Home</item>
+        <item>Search</item>
+        <item>Camera</item>
+        <item>Favorite</item>
+        <item>Person</item>
+    </string-array>
+
 </resources>

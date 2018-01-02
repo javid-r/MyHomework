@@ -7,5 +7,10 @@
     tools:context="com.exercises.javid.myHomework.Start">
 
 
+    <Button
+        android:id="@+id/btn_insta"
+        android:layout_width="match_parent"
+        android:text="@string/instagram"
+        android:layout_height="wrap_content" />
 
 </android.support.constraint.ConstraintLayout>
