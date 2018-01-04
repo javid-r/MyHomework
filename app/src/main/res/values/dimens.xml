@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="insta_icon_contaner">40dp</dimen>
-    <dimen name="insta_icon">40dp</dimen>
+    <dimen name="insta_icon_pd">10dp</dimen>
+    <dimen name="insta_icon_dim">60dp</dimen>
 </resources>
