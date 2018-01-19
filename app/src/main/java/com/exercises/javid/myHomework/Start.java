@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.exercises.javid.myHomework.uis.CameraActivity;
 import com.exercises.javid.myHomework.uis.InstagramActivity;
+import com.exercises.javid.myHomework.uis.SMSActivity;
 
 public class Start extends AppCompatActivity {
 
@@ -15,11 +17,27 @@ public class Start extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-        Button button = (Button) findViewById(R.id.btn_insta);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button btnInsta = (Button) findViewById(R.id.btn_start_insta);
+        btnInsta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), InstagramActivity.class));
+            }
+        });
+
+        Button btnSMS = (Button) findViewById(R.id.btn_start_sms);
+        btnSMS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), SMSActivity.class));
+            }
+        });
+
+        Button btnCam = (Button) findViewById(R.id.btn_start_cam);
+        btnCam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CameraActivity.class));
             }
         });
     }

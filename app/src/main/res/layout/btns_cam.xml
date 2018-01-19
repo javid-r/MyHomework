@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:layout_width="280dp"
+    android:layout_height="280dp">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="@drawable/btns_cam"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_camera_white" />
+    </LinearLayout>
+
+    <ToggleButton
+        android:layoutDirection="ltr"
+        android:id="@+id/tog_btn_cam_flash"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/ic_flash_on_in" />
+
+    <ImageView
+        android:layoutDirection="ltr"
+        android:id="@+id/tog_btn_cam_setting"
+        android:layout_centerHorizontal="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_camera_settings_white" />
+
+    <ToggleButton
+        android:layoutDirection="ltr"
+        android:id="@+id/tog_btn_cam_camera"
+        android:layout_alignParentEnd="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/ic_camera_rear_white" />
+
+    <ImageView
+        android:layoutDirection="ltr"
+        android:id="@+id/tog_btn_cam_panorama"
+        android:layout_alignParentStart="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/ic_panorama_vertical_white" />
+
+    <ImageView
+        android:layoutDirection="ltr"
+        android:id="@+id/tog_btn_cam_refresh"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ic_refresh_white" />
+
+</RelativeLayout>

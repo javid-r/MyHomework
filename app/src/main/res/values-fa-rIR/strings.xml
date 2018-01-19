@@ -2,6 +2,15 @@
 <resources>
     <string name="app_name">تکالیف</string>
     <string name="instagram">اینستاگرام</string>
+    <string name="sms">پیامک</string>
+    <string name="setting">تنظیمات</string>
+    <string name="view">نما</string>
+    <string name="text_size">اندازه متن</string>
+    <string name="text_color">رنگ متن</string>
+    <string name="dark">Dark</string>
+    <string name="editor">ویرایش</string>
+    <string name="light">روشن</string>
+    <string name="cam">دوربین</string>
 
     <string-array name="numbers">
         <item>عنصر 1</item>

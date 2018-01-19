@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title=""
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_sms_setting"
+        android:icon="@drawable/ic_settings_white"
+        android:title="@string/setting" >
+        <menu>
+            <item
+                android:title="@string/text_size"
+                />
+            <item
+                android:title="@string/text_color"
+                />
+            <item
+                android:title="@string/text_size"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_sms_view"
+        android:icon="@drawable/ic_settings_white"
+        android:title="@string/view" >
+
+        <menu>
+            <item
+                android:title="@string/dark"/>
+            <item
+                android:title="@string/editor"/>
+            <item
+                android:title="@string/light"/>
+        </menu>
+    </item>
+
+</menu>

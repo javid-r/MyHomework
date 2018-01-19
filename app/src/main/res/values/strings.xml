@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">Homework</string>
     <string name="instagram">instagram</string>
+    <string name="sms">sms ui</string>
+    <string name="setting">Settings</string>
+    <string name="view">View</string>
+    <string name="text_size">Text Size</string>
+    <string name="text_color">Text Color</string>
+    <string name="dark">Dark</string>
+    <string name="editor">Editor</string>
+    <string name="light">Light</string>
+    <string name="cam">Camera</string>
 
     <string-array name="numbers">
         <item>List Item 1</item>
