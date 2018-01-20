@@ -10,6 +10,7 @@
     <string name="editor">Editor</string>
     <string name="light">Light</string>
     <string name="cam">Camera</string>
+    <string name="login">login</string>
 
     <string-array name="numbers">
         <item>List Item 1</item>
@@ -51,5 +52,7 @@
         <item>Favorite</item>
         <item>Person</item>
     </string-array>
+    <string name="login_error">Please enter your username</string>
+    <string name="login_data_load_error">Error in data loading</string>
 
 </resources>

@@ -19,7 +19,8 @@
         <activity android:name=".uis.InstagramActivity" />
         <activity android:name=".uis.ChatActivity" />
         <activity android:name=".uis.SMSActivity" />
-        <activity android:name=".uis.CameraActivity"/>
+        <activity android:name=".uis.CameraActivity" />
+        <activity android:name=".uis.LoginActivity"></activity>
     </application>
 
 </manifest>

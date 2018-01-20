@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.exercises.javid.myHomework.uis.CameraActivity;
 import com.exercises.javid.myHomework.uis.InstagramActivity;
+import com.exercises.javid.myHomework.uis.LoginActivity;
 import com.exercises.javid.myHomework.uis.SMSActivity;
 
 public class Start extends AppCompatActivity {
@@ -38,6 +39,14 @@ public class Start extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), CameraActivity.class));
+            }
+        });
+
+        Button btnLogin = (Button) findViewById(R.id.btn_start_login);
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
             }
         });
     }

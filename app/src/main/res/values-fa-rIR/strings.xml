@@ -11,6 +11,7 @@
     <string name="editor">ویرایش</string>
     <string name="light">روشن</string>
     <string name="cam">دوربین</string>
+    <string name="login">ورود به حساب کاربری</string>
 
     <string-array name="numbers">
         <item>عنصر 1</item>
@@ -52,5 +53,7 @@
         <item>مورد علاقه</item>
         <item>شخص</item>
     </string-array>
+    <string name="login_error">لطفا نام کاربری خود راوارد کنید</string>
+    <string name="login_data_load_error">خطا در بارگذاری اطلاعات</string>
 
 </resources>
